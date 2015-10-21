@@ -18,6 +18,65 @@
         });
     });
 </script>
+<br>
+<script>
+    $(document).ready(function () {
+        $("#btn").click(function () {
+            $("body").css("background-color", $("#btn").text())
+        });
+    });
+</script>
+<button id="btn">Red</button>
+<br>
+
+
+<script>
+    $(document).ready(function () {
+        $("#btn2").click(function () {
+            $("body").css("background-color", $("#btn2").text())
+        });
+    });
+</script>
+<button id="btn2">Green</button>
+<br>
+
+
+<script>
+    $(document).ready(function () {
+        $("#btn3").click(function () {
+            $("body").css("background-color", $("#btn3").text())
+        });
+    });
+</script>
+<button id="btn3">Blue</button>
+<script>
+    $(document).ready(function () {
+        $("#extra").click(function () {
+            $("body").css("background-color", $("#Custom").val())
+        });
+    });
+</script>
+<p><label><input type="text" id="Custom" value=""></label></p>
+<button id="extra">Custom color!</button>
+<br>
+<!--9.ül -->
+
+<!--Disable right-click menu-->
+<script>
+    $(document).bind("contextmenu", function () {
+        return false;
+    }); // Disable contextmenu
+</script>
+
+<button id="btn1">Enable right click</button>
+
+<script>
+    $("#btn1").on("click", function () {
+        $(document).unbind(); // Enable contextmenu via a button
+    });
+</script>
+<!-- 10.ül-->
+
 
 
 
