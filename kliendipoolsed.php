@@ -7,12 +7,15 @@
 <body>
 
 <?php
-$eesNimi='Ben';
-$pereNimi='Kaljuvee';
-$vanus=20;
 $eesnimi_algab_vokaaliga = false;
-echo $eesNimi.' '.$pereNimi.' ('.$vanus.')';
-
+$isik=array(
+    'Eesnimi:'=>'Ben ',
+    'Perenimi:'=>'Kaljuvee ',
+    'Vanus:'=>'(20)'
+);
+foreach($isik as $key=>$value){
+    echo $value;
+}
 ?>
 </body>
 </html>
