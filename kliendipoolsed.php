@@ -9,8 +9,8 @@
 <?php
 $eesNimi='Ben';
 $pereNimi='Kaljuvee';
-echo $eesNimi.'&nbsp'.$pereNimi;
 $vanus=20;
+$eesnimi_algab_vokaaliga = false;
 echo $eesNimi.' '.$pereNimi.' ('.$vanus.')';
 
 ?>
