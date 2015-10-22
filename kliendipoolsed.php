@@ -12,6 +12,7 @@ $pereNimi='Kaljuvee';
 echo $eesNimi.'&nbsp'.$pereNimi;
 $vanus=20;
 echo $eesNimi.' '.$pereNimi.' ('.$vanus.')';
- ?>
+
+?>
 </body>
 </html>
